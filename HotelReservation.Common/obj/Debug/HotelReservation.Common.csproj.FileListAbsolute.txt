@@ -1,0 +1,10 @@
+C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Common\bin\Debug\HotelReservation.Common.dll.config
+C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Common\bin\Debug\HotelReservation.Common.dll
+C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Common\bin\Debug\HotelReservation.Common.pdb
+C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Common\bin\Debug\EntityFramework.dll
+C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Common\bin\Debug\EntityFramework.xml
+C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Common\obj\Debug\HotelReservation.Common.csproj.CoreCompileInputs.cache
+C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Common\obj\Debug\HotelReservation.Common.dll
+C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Common\obj\Debug\HotelReservation.Common.pdb
