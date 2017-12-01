@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Hotel List";
+    WebGrid grid = new WebGrid(source: Model, canSort: false);
+}
+
+@model IEnumerable<HotelReservation.Models.Hotel>
+
+<h2>Search </h2>
+
+<div id="main" style="padding:25px; background-color:white;">
+   @grid.GetHtml(tableStyle: "gTable",
+   columns: grid.Columns(grid.Column("Name", "Name"), grid.Column("Address", "Address"), grid.Column("City", "City"), grid.Column("State", "State"), grid.Column("Zip", "Zip"),
+   grid.Column(format: (hotel) =>
+   {
+       WebGrid subGrid = new WebGrid(source: hotel.Rooms);
+       return subGrid.GetHtml(columns: subGrid.Columns(subGrid.Column("Number", "Number"), subGrid.Column("Rate", "Rate"), subGrid.Column("RoomType", "Type"),
+           subGrid.Column(format: (item) => Html.ActionLink("Select", "Index", new { ID = item.Id}))
+           ));
+   }, header: "Rooms"
+   
+   )))
+</div>
+<style>
+    .gTable {
+        border-collapse: collapse;
+        border: 1px solid #c0c0c0;
+        width: 100%;
+    }
+
+        .gTable tr td {
+            padding: 5px;
+            border: 1px solid #c0c0c0;
+        }
+
+        .gTable tr:nth-child(2n+1) {
+            background-color: #eaeaea;
+        }
+
+        .gTable tr th {
+            background-color: #8fd9ff;
+        }
+
+    tfoot tr td {
+        background-color: #ffd800 !important;
+    }
+
+    .gTable tr:hover {
+        background-color: #fffddc;
+    }
+
+    .selectedRow {
+        background-color: #ff6a00 !important;
+    }
+</style>

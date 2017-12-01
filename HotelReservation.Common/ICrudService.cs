@@ -12,7 +12,7 @@ namespace HotelReservation.Common
         TEntity Update(TEntity entity);
         TEntity Create(TEntity entity);
         TEntity Delete(TEntity entity);
-        TEntity Delete(int id);
+       // TEntity Delete(int id);
         IQueryable<TEntity> Get(Expression<Func<TEntity, bool>> predicate);
 
         IQueryable<TEntity> FindBy(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate);

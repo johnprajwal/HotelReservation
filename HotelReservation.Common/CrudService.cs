@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 
 namespace HotelReservation.Common
 {
-    public class CrudService<TEntity> : IDisposable, ICrudService<TEntity> where TEntity : class, IEntity
+    public class CrudService<TEntity> : IDisposable, ICrudService<TEntity> where TEntity : class
     {
         private readonly DbContext _dbContext;
 
@@ -47,18 +47,18 @@ namespace HotelReservation.Common
             return entity;
         }
 
-        public TEntity Delete(int id)
-        {
-            var entityToDelete = _dbContext.Set<TEntity>().FirstOrDefault(e => e.Id == id);
-            if (entityToDelete == null)
-            {
-                throw new Exception("Not Found");
-            }
+        //public TEntity Delete(int id)
+        //{
+        //    var entityToDelete = _dbContext.Set<TEntity>().FirstOrDefault(e => e.Id == id);
+        //    if (entityToDelete == null)
+        //    {
+        //        throw new Exception("Not Found");
+        //    }
 
-            _dbContext.Set<TEntity>().Remove(entityToDelete);
-            _dbContext.SaveChanges();
-            return entityToDelete;
-        }
+        //    _dbContext.Set<TEntity>().Remove(entityToDelete);
+        //    _dbContext.SaveChanges();
+        //    return entityToDelete;
+        //}
 
         public IQueryable<TEntity> Get(Expression<Func<TEntity, bool>> predicate)
         {
