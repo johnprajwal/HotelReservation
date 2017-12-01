@@ -9,3 +9,14 @@ C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Data
 C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Data\obj\Debug\HotelReservation.Data.dll
 C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Data\obj\Debug\HotelReservation.Data.pdb
 C:\Users\johnprajwal\Desktop\GrandCentral\HotelReservation\HotelReservation.Data\obj\Debug\HotelReservation.Data.csprojResolveAssemblyReference.cache
+C:\Git\HotelReservation\HotelReservation.Data\bin\Debug\HotelReservation.Data.dll.config
+C:\Git\HotelReservation\HotelReservation.Data\bin\Debug\HotelReservation.Data.dll
+C:\Git\HotelReservation\HotelReservation.Data\bin\Debug\HotelReservation.Data.pdb
+C:\Git\HotelReservation\HotelReservation.Data\bin\Debug\EntityFramework.dll
+C:\Git\HotelReservation\HotelReservation.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\HotelReservation\HotelReservation.Data\bin\Debug\EntityFramework.xml
+C:\Git\HotelReservation\HotelReservation.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\HotelReservation\HotelReservation.Data\obj\Debug\HotelReservation.Data.csprojResolveAssemblyReference.cache
+C:\Git\HotelReservation\HotelReservation.Data\obj\Debug\HotelReservation.Data.csproj.CoreCompileInputs.cache
+C:\Git\HotelReservation\HotelReservation.Data\obj\Debug\HotelReservation.Data.dll
+C:\Git\HotelReservation\HotelReservation.Data\obj\Debug\HotelReservation.Data.pdb
